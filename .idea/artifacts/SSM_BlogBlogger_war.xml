@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSM_BlogBlogger项目:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Mybatis_001.war">
+      <element id="artifact" artifact-name="SSM_BlogBlogger项目:war exploded" />
+    </root>
+  </artifact>
+</component>
