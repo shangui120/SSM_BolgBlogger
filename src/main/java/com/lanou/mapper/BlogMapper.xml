@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lanou.mapper.BlogMapper">
+    <resultMap id="BaseMap" type="Blog">
+        <id column="id" property="id"/>
+        <id column="title" property="title"/>
+        <id column="des" property="des"/>
+        <id column="content" property="content"/>
+    </resultMap>
+
+    <sql id="Base_sql">
+        id,title,des,content
+    </sql>
+</mapper>
